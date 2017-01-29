@@ -182,7 +182,7 @@ function foo() {
 console.log(a);  // 2
 ```
 
-### Nester scopes:
+### Nested scopes:
 
 Variable is available inside any inner/lower scopes. `ReferenceError` gets thrown if variable value is not available in scope.
 
@@ -436,11 +436,11 @@ For example:
 
 `var el = document.getElementById(“foo”);`
 
-The `document` global variable exists as a special Js `object`​, “host object”
+`​`​The `document` global variable exists as a special Js `object`​, “host object”
 
 Built-in methods provided by the DOM from your browser, like `getElementById()`​
 
-alert() and console.log() all hook into the browser.
+`alert()` and `console.log()` all hook into the browser.
 
 Review:
 =======

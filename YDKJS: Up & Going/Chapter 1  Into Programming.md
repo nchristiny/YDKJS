@@ -3,7 +3,7 @@ Computer language:
 
 Source code. Built primarily for the developer - other devs or your future self.
 
-Syntax + grammar rules = combine to write a valid or coherent combo of char to make the computer perform a task or receive a statement.
+Syntax & grammar combine to write a valid or coherent combo of char to make the computer perform a task or receive a statement.
 
 Statement: 
 -----------
@@ -50,32 +50,32 @@ Output: `console.log( b );`
 Operators:
 ----------
 
-Assignment, =
+Assignment, `=`
 
-Math, +, -, /, \*, %
+Math, `+`, `-`, `/`, `*`, `%`
 
-Compound Assignment +=. -=, \*=, /=, %=
+Compound Assignment `+=`. `-=`, `*=`,` /=`, `%=`
 
-Increment/Decrement, ++/—
+Increment/Decrement, `++`/`—`
 
-Object property access, obj.a or obj[a]
+Object property access,` obj.a` or `obj[a]`
 
-Equality, == loose-equals, === strict-equals, != loose not-equals, !== strict not-equals
+Equality, `==` loose-equals, `===` strict-equals, `!=` loose not-equals, `!==` strict not-equals
 
-Comparison, \<, \>, \<=, \>=
+Comparison, `<`, `>`, `<=`, `>=`
 
-Logical, &&, ||
+Logical, `&&`, `||`
 
 Types:
 ------
 
 ### Primitive values:
 
-number
+`number`
 
-string
+`string`
 
-boolean
+`​`​`boolean`
 
 string literal `“hello"`
 
@@ -242,4 +242,4 @@ Practice!
 * Finally, check the amount against your bank account balance to see if you can afford it or not.
 * You should set up some constants for the “tax rate,” “phone price,” “accessory price,” and “spending threshold,” as well as a variable for your “bank account balance.”
 * You should define functions for calculating the tax and for formatting the price with a “$” and rounding to two decimal places.
-* Bonus Challenge: Try to incorporate input into this program, perhaps with the prompt(..) covered in “Input”.
+* Bonus Challenge: Try to incorporate input into this program, perhaps with the `prompt(..)` covered in “Input”.
